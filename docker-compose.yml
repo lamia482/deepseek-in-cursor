@@ -1,0 +1,17 @@
+services:
+  deepseek-proxy:
+    build: .
+    container_name: deepseek-cursor-proxy
+    env_file:
+      - .env
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+    ports:
+      - "9000:9000"
+      - "4040:4040"
+    volumes:
+      - deepseek-proxy-data:/root/.deepseek-cursor-proxy
+    restart: unless-stopped
+
+volumes:
+  deepseek-proxy-data:

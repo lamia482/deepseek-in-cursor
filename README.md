@@ -21,6 +21,7 @@ docker logs -tf -n10 deepseek-cursor-proxy
 
 应看到如下提示，并拷贝
 
+![alt text](image.png)
 
 
 #### 在 Cursor 中配置使用该代理

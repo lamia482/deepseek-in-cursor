@@ -13,6 +13,8 @@
 ```
 git clone git@github.com:lamia482/deepseek-in-cursor.git
 cd deepseek-in-cursor
+cp .env.example .env
+# 修改 .env 中的ngrok Authtoken
 docker-compose up -d
 docker logs -tf -n10 deepseek-cursor-proxy
 ```
@@ -38,4 +40,3 @@ docker logs -tf -n10 deepseek-cursor-proxy
 在 Cursor 的 AI 聊天窗口，从模型下拉菜单里选择你刚添加的模型（例如 `deepseek-v4-pro`），然后就可以像使用官方模型一样愉快地提问了。
 
 自定义的模型无法和 Cursor 内置的模型共用，需要先关闭「OpenAI API Key」之后选择别的模型；
-

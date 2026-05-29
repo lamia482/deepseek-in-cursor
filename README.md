@@ -8,7 +8,7 @@
 - **ngrok Authtoken**：在 [ngrok Dashboard](https://dashboard.ngrok.com/get-started/your-authtoken) 获取（用于免费版动态地址）。
 - **网络环境**：确保能正常访问外网。
 
-### 🚀 详细配置步骤
+### 🚀 详细配置步骤「在HOST主机」
 
 ```
 git clone git@github.com:lamia482/deepseek-in-cursor.git
@@ -21,8 +21,7 @@ docker logs -tf -n10 deepseek-cursor-proxy
 
 应看到如下提示，并拷贝
 
-![alt text](image.png)
-
+alt text
 
 #### 在 Cursor 中配置使用该代理
 

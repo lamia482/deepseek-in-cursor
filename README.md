@@ -37,6 +37,6 @@ alt text
 
 #### 开始使用
 
-在 Cursor 的 AI 聊天窗口，从模型下拉菜单里选择你刚添加的模型（例如 `deepseek-v4-pro`），然后就可以像使用官方模型一样愉快地提问了。
+在 Cursor 的 AI 聊天窗口，从模型下拉菜单里选择你刚添加的模型（例如 `deepseek-v4-pro`「但仍会被 Cursor 收取$0.25/M token 的 fee」），然后就可以像使用官方模型一样愉快地提问了。
 
 自定义的模型无法和 Cursor 内置的模型共用，需要先关闭「OpenAI API Key」之后选择别的模型；
